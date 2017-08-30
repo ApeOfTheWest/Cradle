@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 31ba85643515d3d478b2fec32c859904
+timeCreated: 1502531340
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - baseReward: {instanceID: 0}
+  - homeInitiativeStrike: {instanceID: 0}
+  - intro: {instanceID: 0}
+  - homeVictory: {fileID: 11400000, guid: 7c6f9f0828001f14c8fb367c4bd5097d, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

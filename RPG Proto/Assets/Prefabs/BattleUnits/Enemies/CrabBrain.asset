@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba053f3cfd4508843b9f0a985d0b9cb8, type: 3}
+  m_Name: CrabBrain
+  m_EditorClassIdentifier: 
+  abilities:
+  - ability: {fileID: 11400000, guid: 1d264a4faf2ea774abd29a21f097b338, type: 2}
+    abilityCooldown: 0
+    rallyRequired: 0
+    rallyExpended: 0
+    magickCost: 0
+    healthCost: 0
+    usable: 0

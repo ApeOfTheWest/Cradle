@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ba85643515d3d478b2fec32c859904, type: 3}
+  m_Name: TestFight
+  m_EditorClassIdentifier: 
+  activeUnits:
+  - {fileID: 11400000, guid: c1d4ef820f1f6c54f8aab14ab1244998, type: 2}
+  reserveUnits: []
+  baseReward: {fileID: 11400000, guid: 6119d57515a0d8e4296eeaa3d7241bcd, type: 2}
+  homeInitiativeStrike: {fileID: 0}
+  intro: {fileID: 0}
+  homeWin: []
+  awayWin: []
+  homeVictory: {fileID: 11400000, guid: 7c6f9f0828001f14c8fb367c4bd5097d, type: 2}
+  challengerLeftSide: 1

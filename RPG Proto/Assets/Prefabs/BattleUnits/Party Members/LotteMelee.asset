@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b870978dcc737d42bca6b4d576f74ac, type: 3}
+  m_Name: LotteMelee
+  m_EditorClassIdentifier: 
+  abilityName: Attack
+  targetDead: 0
+  preferredTarget: 0
+  validTarget: 2
+  meleeName: MeleeAttack
+  meleeOffset: {x: -0.6, y: -0.22}
+  hitSound: {fileID: 8300000, guid: 87b01ab6dfe5ac449a2f96c5304ed0cd, type: 3}
+  hitPacket:
+    ignoreResistance: 0
+    evadable: 1
+    missable: 1
+    damage:
+      baseDamage: 10
+      strengthScaling: 0
+      wisdomScaling: 0
+      dexterityScaling: 0
+      percentScatter: 10
+    hitType: 0
+    element: {fileID: 0}
+    accuracy: 100
+    additionalEffects: []
+  hitSpark: {fileID: 0}
+  hitSparkAngle: 0
