@@ -188,6 +188,7 @@
      <Compile Include="Assets\Scripts\Units\UnitControllers\UnitController.cs" />
      <Compile Include="Assets\Scripts\Units\UnitSelection.cs" />
      <Compile Include="Assets\Scripts\Units\Units\PrefabBlueprint.cs" />
+     <Compile Include="Assets\Test folder\NewBehaviourScript.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
