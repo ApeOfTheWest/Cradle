@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 48
+  controlID: 11
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 49
+  controlID: 12
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -153,11 +153,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1503
-    height: 613
+    height: 614
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 50
+  controlID: 13
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -175,9 +175,9 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 457
-    height: 613
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+    height: 614
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -200,7 +200,7 @@ MonoBehaviour:
     x: 457
     y: 0
     width: 1046
-    height: 613
+    height: 614
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 14}
@@ -224,9 +224,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 613
+    y: 614
     width: 1503
-    height: 334
+    height: 333
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 15}
@@ -362,12 +362,12 @@ MonoBehaviour:
     x: 0
     y: 92
     width: 455
-    height: 592
+    height: 593
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: 0e310000
     m_LastClickedID: 0
-    m_ExpandedIDs: 1ceeffff00000000
+    m_ExpandedIDs: e6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -415,7 +415,7 @@ MonoBehaviour:
     x: 459
     y: 92
     width: 1042
-    height: 592
+    height: 593
   m_SceneLighting: 1
   lastFramingTime: 4183.488034582082
   m_2DMode: 1
@@ -487,9 +487,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 705
+    y: 706
     width: 1501
-    height: 313
+    height: 312
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
@@ -501,19 +501,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Test folder
   m_ViewMode: 1
   m_StartGridSize: 80
   m_LastFolders:
-  - Assets
+  - Assets/Test folder
   m_LastFoldersGridSize: 80
   m_LastProjectPath: D:\Users\Matthew\Documents\GitHub\Cradle\RPG Proto
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 95}
-    m_SelectedIDs: 84310000
-    m_LastClickedID: 12676
-    m_ExpandedIDs: 0000000084310000b2310000b4310000b8310000e4310000f4310000f631000010320000123200001a32000020320000223200002c3200003c320000603200006232000068320000c2320000d6320000de320000e8320000f632000014330000163300001e33000026330000be36000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 1145}
+    m_SelectedIDs: 0e310000
+    m_LastClickedID: 12558
+    m_ExpandedIDs: 00000000d825000010260000122600001a260000522600007a2600007c260000a8260000aa260000c4260000d4260000dc260000fe26000016270000662700007427000080270000442800007228000080280000942800004429000074290000782900008e2900009e2900000431000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -541,7 +541,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000084310000b2310000b4310000b8310000e4310000f4310000f631000010320000123200001a32000020320000223200002c3200003c320000603200006232000068320000c2320000d6320000de320000e8320000f632000014330000163300001e33000026330000be360000
+    m_ExpandedIDs: 00000000d825000010260000122600001a260000522600007a2600007c260000a8260000aa260000c4260000d4260000dc260000fe26000016270000662700007427000080270000442800007228000080280000942800004429000074290000782900008e2900009e29000004310000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -619,9 +619,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 705
+    y: 706
     width: 1501
-    height: 313
+    height: 312
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
