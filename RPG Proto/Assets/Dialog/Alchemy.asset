@@ -1,0 +1,269 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c5b9b893d8d804448375879a8d84f7d, type: 3}
+  m_Name: Alchemy
+  m_EditorClassIdentifier: 
+  nodes:
+  - responses: []
+    leftPortrait: {fileID: 0}
+    rightPortrait: {fileID: 0}
+    speakerName: 
+    nodeText: "Alchemy, as I perceive it, is a spiritual tradition, a means for exploring
+      our inner space and the layers which clothe the precious essence of our innermost
+      soul. It is a path, a way, a practical method for investigating the substance
+      of our being, by meditating upon chemical processes. The alchemists worked with
+      their retorts, heating, calcining, subliming, distilling substances, watching
+      all the while the transformations within their experiments. They used events
+      in their experiments as seed images for meditations, forming visual mantras
+      from chemical changes. The alchemists reflected and mirrored these outward events
+      into their interior world. They saw the processes in their flasks as an interaction
+      and linking of the spiritual and the material. The spirit rose up, separating
+      from the substance at the bottom of their flasks and descended again to spiritualise
+      the material into an essence or tincture. As the alchemists reworked these experiments
+      over in their souls, they further drew parallels with the greater laboratory
+      of Nature. They saw the work within their flasks as a kind of microcosm of macrocosmic
+      Nature. The living energies and beings in Nature were metaphorically drawn into
+      their retorts, as they began to picture the living alchemical processes through
+      animal symbols. For example, a black toad was a good image for the seething
+      black mass of substance digesting in the flask, while a white eagle was a beautiful
+      way of describing the white steam or fumes which rose up into the neck of the
+      flask from the substance being heated below.\r\n\r\nI would just like us to
+      consider some of the more important of these animal symbols. Alchemists were,
+      of course, individualists who worked alone, rather than being members of sodalities
+      or secret orders, yet despite their writings being a result of their own experiences,
+      the animal metaphors rapidly developed into a universal language. In the centuries
+      before the invention of printing, key alchemical manuscripts, often with beautiful
+      illuminated illustrations, circulated quite widely. Works like the Aurora Consurgens
+      (attributed to Thomas Aquinas), the Buch der Heiligen Dreigaltigheit, the works
+      of Ramon Lull, Roger Bacon, Arnold of Villa Nova, exist in many manuscript collections
+      from this period, and with this exchange of ideas a quite coherent set of metaphors
+      emerged in the European Alchemical tradition. It was the coherence and universality
+      of this set of alchemical symbols that lead Carl Jung to the concept of the
+      collective unconscious. The alchemists though pursuing their inner work independently
+      as individuals, nevertheless found in their interior descent a coherent language
+      of symbols.\r\n\r\nAt the core of this was a vision of an alchemical process
+      occurring through a cycle of colour changes, from an initial blackness to the
+      perfection of the quintessence.\r\nThe alchemist envisaged each stage of the
+      process being heralded by a colour change and a meeting with certain animals.\r\n\r\nBlackening
+      - Black Crow, Raven, Toad, Massa Confusa.\r\nWhitening - White Swan, White Eagle,
+      skeleton.\r\nGreening - Green Lion.\r\nRapid cycling through iridescent colours
+      - Peacock's Tail.\r\nWhite Stone - Unicorn.\r\nReddening - Pelican feeding young
+      with its own blood, cockerel.\r\nFinal transmutation - Phoenix reborn from the
+      fire.\r\n\r\nThe phase of Blackening which usually marked the beginning of the
+      work, was brought about either by heating the prima materia in the process of
+      Calcination (the 'dry way' of the alchemists), or by the process of Putrefaction,
+      a slow rotting or digestion over a period of weeks or months (the so-called
+      'wet way'). The Black Crow or Raven was often associated with this Calcination,
+      for on vigorous heating the calcined material would usually carbonise and layers
+      would flake off and move like a crow's wings in the flask. The Toad was a better
+      symbol of the Putrefaction, the decaying mass slowly pulsating and shifting
+      as gasses were given off, while the substance rotted down to a black mass. Another
+      symbol of this stage was the dragon, a familiar inhabitant of the alchemists
+      flasks. The dragon is however a more complex symbol and is also used when winged
+      as a symbol for the spiritualising of the earthly substance. Thus to the alchemists
+      the dragon appeared at the beginning and at the end of the work.\r\n\r\nThe
+      alchemists paralleled these experiences in their souls as a withdrawal into
+      the darkness of their interior space, a darkness pregnant with possibility.
+      We have to a great extent lost the sense that still lived in the medieval and
+      renaissance alchemists, that this darkness contained all potentialities. Like
+      children we fear the dark, and for twentieth century humanity darkness often
+      holds only an existential dread - philosophers of science have in the last decade
+      brought us this terrible image of the 'Black Hole' which swallows up and annihilates
+      everything that comes into its orbit. Perhaps we do not gaze enough at the blackness
+      of the heavens. For if we look deep into the blackness of space on a clear night,
+      we will sense more stars hidden between the known visible stars, especially
+      in the vast star fields of the Milky Way. Cosmic space is pregnant with the
+      possibility of other worlds as yet unseen. It is this image of blackness we
+      must try to recover if we are to become alchemists. An echo of this perhaps
+      remains in the often used phrase \"a profound darkness\". In alchemy, to meet
+      with the black crow is a good omen. Thus in the Chymical Wedding of Christian
+      Rosenkreutz, as our hero sets out on his journey of transformation, he meets
+      with a Crow which by a turn of fate decides which among the various paths open
+      to him is the one that will lead him to the Castle of the King.\r\n\r\nThe temporary
+      phase of whitening which followed on the black stage was symbolised by the white
+      eagle or white swan. As the black mass of the calcination was reacted with other
+      substances and heated, it took on a white crust or dusty layer which sometimes
+      puffed up and flew in a cloud in the flask, as heat exploded bubbles of gas
+      out of the black substance below. This was the White Eagle of the dry way. In
+      the wet way, the dark putrefying matter sometimes began to form white patches,
+      often fungal growths floating on the surface, or white crystals growing out
+      of the mass. This could be pictured as the White Swan, which was at home upon
+      the surface of the water yet fed off of the dark mud at the bottom of the stream
+      or lake. Its whiteness contrasting with the mud on which it is observed to feed,
+      made it a fine symbol of how spiritual purity could be gained from the unpromising
+      primal material.\r\n\r\nThe whitening is a phase when we sense or have a prevision
+      of the end of the work. It is a polar swing from out of the blackening - the
+      appearance of seeds of the future development of the work. It is that stage
+      of catharsis after some intense experience of being consumed in the crucible,
+      when we glimpse the appearance, however fragmentary, of a new possibility -
+      a flickering light in our souls which draws us towards its promise of change.
+      We all experience these alchemical phases in our inner life, though nowadays,
+      immersed as we are in twentieth century images which often lack a spiritual
+      core, we often fail to recognise these to be of any value, but if we are able
+      to use the alchemical view of inner transformation, which we might need to mould
+      and shape to suite our present consciousness, we can gain much inner perception
+      and growth. For our blackness becomes a pregnant space, and a mere fleeting
+      show of the whiteness, is a significant step towards out goal of integration
+      of the spiritual and the material in our beings.\r\n\r\nThus in alchemy these
+      two phases so fundamentally linked, were sometimes seen as the chaining of a
+      toad and an eagle. The eagle of the spirit is held down by the earthly weight
+      of the toad, while the earthly part of our being (the toad symbol) is lifted
+      up towards the spirit. The hermetic philosopher Michael Maier incorporated this
+      symbol into his coat of arms. The image of the earthly dragon bearing wings
+      was sometimes used to express this same idea. If we can sense within our souls
+      the need to link the spirit and the material, the spiritualising of the material
+      and the materialising of the spirit, then we truly have made progress through
+      the blackening to the stage of the whitening.\r\n\r\nAt this point the alchemists
+      would often encounter the Peacock's Tail, a sudden appearance of a rush of colours,
+      an iridescence on the surface of the material in the flask, which made some
+      think they had achieved their goal. This could arise through the formation of
+      a layer of oil on the surface of the watery mass (in the wet way) or some oxidation-reduction
+      reactions, say on the surface of liquid metal (in the dry way). It was a fleeting
+      show of colour changes, that pointed to the fact that one was on the right path,
+      and reabsorbed the energies released in initial emergence of the polarities.
+      It was a midway point of the process, which could be seen as a false conclusion.
+      Many people who have this experience in their inner life often falsely assume
+      they have reached the end of the work, and attained inner transformation and
+      enlightenment. The inner vision of the Peacock\xD5s Tail, beautiful though it
+      may be, is merely a digestion of the polarities of the black and white stage.
+      These must be transformed further into spiritual tinctures, if we hope to have
+      any permanent transformation within the soul.\r\n\r\nNot all alchemists used
+      the symbolism of the Peacock's Tail, and another stage often met at this point
+      in the cycle was the meeting with the Green Lion. Physically the Green Lion
+      was usually a name for vitriol, or the sulphuric acid created by distilling
+      the green crystals of iron sulphate in a flask. Iron sulphate was formed when
+      iron ores rich in sulphides were left to oxidise in the air, so was readily
+      available to medieval alchemists. The sharp penetrating sulphuric acid could
+      create major chemical changes in many materials even to the extent of dissolving
+      metals like iron, and copper. The Green Lion could also be the nitric acid formed
+      from heating saltpeter or nitre and iron sulphate. Nitric acid when mixed with
+      the acid derived from common salt, hydrochloric acid, produced aqua regia, a
+      greenish tinged liquid that could dissolve even the noble metal gold. The Green
+      Lion devouring the sun is a famous image in alchemy being depicted in many manuscripts
+      and engravings, and can be thought of as aqua regia dissolving the solar gold
+      and forming a solution which could readily tinge metals with gold.\r\n\r\nTo
+      other alchemists who worked primarily with vegetable matter and processes, rather
+      than the mineral work, the Green Lion was an image of the green raw energy of
+      nature, \"the green fuse which drives the flower\" as Dylan Thomas elegantly
+      expressed it in one of his poems. Here the Green Lion which devours the sun
+      is the green pigment chlorophyll. The green leaves of the plant are formed out
+      of the energy of sunlight. Alchemists often attempted to create living processes
+      in their flasks and looked especially for precipitates or crystallisations which
+      resembled leaves or plant forms. The Green Lion here could be a plant sap extract
+      which was often the prima materia for their alchemical work. The Gryphon, half-eagle
+      and half-lion, was sometimes associated with the end of this stage. The eagle
+      nature of the Gryphon gave this hybrid being an ability to ascend in the flask,
+      so it marked, in a sense, the spiritualisation of the Green Lion.\r\n\r\nIn
+      the work with minerals, the metal antimony was referred to as the Grey Wolf,
+      because when molten it greedily swallowed up many other metals, such as copper,
+      tin and lead, by forming alloys. In this sense it behaved like metallic mercury
+      which also readily amalgamated with metals. The Grey Wolf of antimony became
+      especially important in early 17th century alchemy - its curative properties
+      being popularised through the writings published under the name of Basil Valentine.
+      To an extent it became an analogue for the work with minerals of the Green Lion
+      of the work with plant substance.\r\n\r\nAfter the Peacock's Tail or the greening
+      of the Lion, alchemists looked for the appearance of a stage of whitening then
+      a reddening in their flasks marking an new integration of the polarities which
+      had emerged in the initial blackening and whitening and then been digested.\r\n\r\nThe
+      white stage was the formation of the white tincture or stone, and was derived
+      from though not to be confused with the earlier whitening which followed the
+      calcination or putrefaction, for to have proceeded to this stage meant one was
+      on a higher level of spiritual attainment. This was often pictured as the appearance
+      of a queen dressed in shining white robes in the flask. The white tincture marked
+      a process of inner change when the alchemist was able to experience and bring
+      into an integrated harmony the feminine component of the soul. Often this sexual
+      element is stressed in alchemy. The Rosarium Philosophorum, a key work of the
+      mid 16th century, shows the coupling of the male and female as a central facet
+      of the process. Regrettably, some 20th century commentators have sought to link
+      this symbolism with the practice of so called 'sex-magic', in which people seek
+      to use the sexual act as a basis for magical working. The alchemical manuscripts
+      and books do not seem to support such an interpretation at all. The male and
+      female copulating in the flask were for the alchemists symbols for aspect of
+      our inner being uniting together. They saw metals, plants and minerals as being
+      masculine and feminine in some degree and projected the transformations of these
+      in their retorts into their inner space, in order to explore their own masculine
+      and feminine natures. Acids, for example, which could penetrate and dissolve
+      metal ores, were seen as masculine. Substances exhibited a femininity when they
+      were connected with the forces of growth and nourishment of processes in the
+      flask and the melding of substances together into a new unity. Metallic Mercury
+      was seen as hermaphrodite as it both dissolved and brought together other metals
+      into an amalgam.\r\n\r\nThe White Stone was sometimes symbolised by the Unicorn,
+      partly because of its white horn, but also because the Unicorn could only be
+      tamed by the touch of a pure woman. Thus the White Tincture can only be experienced
+      by purifying the feminine forces within our beings.\r\n\r\nThe reddening or
+      formation of the Red Stone was pictured through the symbol of the Pelican. The
+      white pelican bird with its long bill reaching down over its breast, was in
+      medieval times mistakenly observed piercing its breast with its bill and feeding
+      its young on its own blood. What actually happens is that the bird regurgitates
+      food it has caught earlier and its young feed on this ground up fish, bits of
+      which fall onto the breast of the pelican and it appears as if its breast is
+      bleeding. This myth of the sacrificial act of the Pelican in feeding its young
+      on its own blood, was more powerful than the prosaic reality and during medieval
+      times the Pelican became a symbol for Christ\xD5s sacrifice of his blood. Alchemists
+      also took this symbol aboard and readily incorporated it into their symbolic
+      menagerie.\r\n\r\nThe reddening marked the formation of the Red Tincture, which
+      transformed the masculine forces of the soul, ennobled them, and brought them
+      into a new harmony and was often symbolised by the appearance of a Red King
+      in the flask. In our inner work, we begin to possess the red tincture when we
+      have entered on the task of transforming the raw energies of the masculine component
+      of our souls, sometimes pictured by the alchemists as a knight brandishing a
+      sword, into a more creative force.\r\n\r\nThe tinctures in alchemy relate also
+      to the substances of the Mass, the red wine, the blood, and the white wafer,
+      the body of Christ. Administration of the Sacraments was seen as spiritualising
+      the souls of the partakers. In alchemical terms these white and red stones or
+      tinctures served much the same purpose, though the alchemists achieved this,
+      not through the intermediacy of a priest but by their own inner work of transmutation.
+      Here alchemy links directly with the Grail stories which use similar parallels
+      between the Grail and the Sacraments. The red tincture was occasionally symbolised
+      by a stag bearing antlers. The stag being seen as a noble masculine animal.
+      This links in with the Unicorn as a symbol of the white or feminine tincture.
+      In some alchemical illustrations, such as that of the late 16th century Book
+      of Lambspring, the Stag and Unicorn meet in the forest of the soul as part of
+      the process of inner transformation.\r\n\r\nThe final stage of the work was
+      often symbolised by the Phoenix rising from the flames. This goes back to the
+      Greek myth of the Phoenix bird which renewed itself every 500 years by immolating
+      itself on a pyre. This is thus a kind of resurrection and was paralleled with
+      the symbol of Christ rising from the tomb. In interior terms its marks the rebirth
+      of the personality from out of the crucible of transformation. The alchemists
+      in meditating on processes in their flasks threw themselves into a sea of strange
+      experiences, and as they worked these within their meditations and sought to
+      grasp the inner parallels and significance of each of the stages of the process
+      they had embarked upon, in a sense they experienced an inner death and rebirth
+      in attaining the Philosophers' Stone. This stone was actually experienced as
+      the formation of a solid ground within the shifting sea of their inner world.
+      Once this solid ground in the soul was found, the alchemists were able to take
+      hold of their lives in a creative way, they could root their personality on
+      a solid foundation or ground of inner experience.\r\n\r\nOne symbol of the stone
+      was that of the Ouroboros, the snake holding its tail. As we begin the work,
+      we are all rather unformed (the 'Massa Confusa' or confused mass is a good image)
+      and often victims at the mercy of the sway of polarities in the soul, psychic
+      energies that constantly shift from one pole to another, from joy to despair,
+      from overbearing positivity to deep melancholy and negativity, from light to
+      dark, energy to inertia. Our consciousness naturally follows the cycle of wakefulness
+      and sleep, reflecting the cycle of day and night and the Seasons in Nature.
+      This duality becomes reflected in many of our inner experiences. The snake often
+      was used as a symbol for duality - its long drawn out body separating the polarities
+      of head and tail. Sometimes the figure of a winged dragon was used here in place
+      of the snake, in order to close the circle with the dragon at the beginning
+      of the work. When the snake or dragon seized its tail it united the polarities
+      into a circle, a symbol to the alchemists for achieving solidity amongst the
+      dualistic energies of the soul forces. The creation of the Philosophers'stone,
+      was the formation of solid inner ground upon which the alchemical philosophers
+      could build their personalities, and experience the full potentiality of being
+      human.\r\n\r\nThus alchemists could pursue their cycle of inner transformation
+      as embarking on a journey in which they met with archetypal animal figures.
+      The steps on their journey were paralleled in their experiments in their flasks,
+      and the detailed images of processes of change were worked together with the
+      animal archetypes of that stage into a mandala-like picture which they used
+      as the basis for their meditations. "
+    endDialog: 0
+    nodeFlag: -1
+  rootNodeIndex: 0
