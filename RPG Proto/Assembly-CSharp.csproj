@@ -100,14 +100,19 @@
      <Compile Include="Assets\Scripts\CameraControl\ParallaxCamControl.cs" />
      <Compile Include="Assets\Scripts\CameraControl\ParallaxCamPreCuller.cs" />
      <Compile Include="Assets\Scripts\DialogueSystem\DialogEventInterface.cs" />
-     <Compile Include="Assets\Scripts\DialogueSystem\DialogPlayer.cs" />
-     <Compile Include="Assets\Scripts\DialogueSystem\DialogueNode.cs" />
-     <Compile Include="Assets\Scripts\DialogueSystem\DialogueResponse.cs" />
-     <Compile Include="Assets\Scripts\DialogueSystem\DialogueTree.cs" />
+     <Compile Include="Assets\Scripts\DialogueSystem\DialogNode.cs" />
+     <Compile Include="Assets\Scripts\DialogueSystem\DialogResponse.cs" />
+     <Compile Include="Assets\Scripts\DialogueSystem\DialogSpeaker.cs" />
+     <Compile Include="Assets\Scripts\DialogueSystem\DialogTree.cs" />
      <Compile Include="Assets\Scripts\DialogueSystem\FloatResponse.cs" />
      <Compile Include="Assets\Scripts\DialogueSystem\IntegerResponse.cs" />
-     <Compile Include="Assets\Scripts\DialogueSystem\SelectionResponse.cs" />
      <Compile Include="Assets\Scripts\DialogueSystem\TextResponse.cs" />
+     <Compile Include="Assets\Scripts\DialogueSystem\UI\DialogPlayer.cs" />
+     <Compile Include="Assets\Scripts\DialogueSystem\UI\DialogUI.cs" />
+     <Compile Include="Assets\Scripts\DialogueSystem\UI\NameLabel.cs" />
+     <Compile Include="Assets\Scripts\DialogueSystem\UI\ResponseButton.cs" />
+     <Compile Include="Assets\Scripts\DialogueSystem\UI\ResponseHolder.cs" />
+     <Compile Include="Assets\Scripts\DialogueSystem\UI\TextHolder.cs" />
      <Compile Include="Assets\Scripts\DynamicMidgroundSorter.cs" />
      <Compile Include="Assets\Scripts\GlobalTweakedConstants.cs" />
      <Compile Include="Assets\Scripts\InitiativeStrikes\InitiativeStrike.cs" />
@@ -127,6 +132,7 @@
      <Compile Include="Assets\Scripts\Overworld\FightChallenger.cs" />
      <Compile Include="Assets\Scripts\Overworld\FightTrigger.cs" />
      <Compile Include="Assets\Scripts\Overworld\Interactable.cs" />
+     <Compile Include="Assets\Scripts\Overworld\OverworldUI.cs" />
      <Compile Include="Assets\Scripts\Overworld\PlayerContactChallenger.cs" />
      <Compile Include="Assets\Scripts\Overworld\PlayerRoster.cs" />
      <Compile Include="Assets\Scripts\Overworld\Room.cs" />
@@ -144,6 +150,8 @@
      <Compile Include="Assets\Scripts\OverworldCreatures\Players\PlayerObjectInteraction.cs" />
      <Compile Include="Assets\Scripts\PersistentData.cs" />
      <Compile Include="Assets\Scripts\StaticMidgroundSorter.cs" />
+     <Compile Include="Assets\Scripts\Testing\BattleTest.cs" />
+     <Compile Include="Assets\Scripts\Testing\DialogTest.cs" />
      <Compile Include="Assets\Scripts\Units\AttackPoint.cs" />
      <Compile Include="Assets\Scripts\Units\GenericAbilities\AbilitySlot.cs" />
      <Compile Include="Assets\Scripts\Units\GenericAbilities\BattleAbility.cs" />
@@ -188,7 +196,6 @@
      <Compile Include="Assets\Scripts\Units\UnitControllers\UnitController.cs" />
      <Compile Include="Assets\Scripts\Units\UnitSelection.cs" />
      <Compile Include="Assets\Scripts\Units\Units\PrefabBlueprint.cs" />
-     <Compile Include="Assets\Test folder\NewBehaviourScript.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

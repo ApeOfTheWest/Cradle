@@ -110,8 +110,8 @@ public class PlayerObjectInteraction : MonoBehaviour {
 		//check what the closest interactable is and set accordingly
 		SelectedInteractable = GetClosestInteractable();
 
-		//check if the interaction button is pressed
-		if (selectedInteractable != null && Input.GetKeyDown("e")) {
+		//check if the interaction button is pressed, only do this when no paused
+		if (selectedInteractable != null && Input.GetKeyDown("e") && LevelController.levelControllerInstance.WorldPaused == false) {
 			//press it
 			selectedInteractable.UseInteractable(interactingPlayer);
 		}

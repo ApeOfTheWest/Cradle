@@ -23,11 +23,20 @@ public class OverworldController : MonoBehaviour {
 		}
 	}
 
+	//get the ui ststem
+	private static OverworldUI uiSystem;
+	public static OverworldUI UISystem {
+		get {
+			return uiSystem;
+		}
+	}
+
 	// Use this for initialization
 	void Awake () {
 		roomHolder = GetComponentInChildren<RoomHolder> ();
 		overworldCamera = GetComponentInChildren<ParallaxCamControl> ();
 		cameraFollow = overworldCamera.gameObject.GetComponent<CameraFollower> ();
+		uiSystem = GetComponentInChildren<OverworldUI> ();
 	}
 
 	//use this to enable / disable the entire overworld section of the level

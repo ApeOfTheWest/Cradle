@@ -103,8 +103,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1751322007723580}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.5098178, y: -0.4959525, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 4.53, y: -2.3, z: 0}
+  m_LocalScale: {x: -1, y: 1, z: 1}
   m_Children:
   - {fileID: 4907994851917078}
   - {fileID: 4833397404853716}
@@ -382,7 +382,7 @@ MonoBehaviour:
           absorb: 0
           resistance: 0
     modifiedAttributes:
-      maxHealth: 1
+      maxHealth: 70
       maxMagick: 0
       speed: 100
       strength: 1
@@ -438,11 +438,11 @@ MonoBehaviour:
     maxMagick: 0
     currentMagick: 0
   health:
-    maxHealth: 100
-    currentHealth: 1
+    maxHealth: 70
+    currentHealth: 70
   turnBrain: {fileID: 11400000, guid: 346b163649392c347b8908a62588fb4b, type: 2}
   normHomePosition: {x: 0, y: 0}
-  homePosition: {x: 0, y: 0}
+  homePosition: {x: 4.53, y: -2.3}
   statusDisplay: {fileID: 0}
   turnOrderPortrait: {fileID: 21300000, guid: 1757139fa35b87a4087a262e64b1eb99, type: 3}
   endTurnAfterNextAbility: 1

@@ -6,7 +6,7 @@ using UnityEngine;
 public class DizzyGirl : Interactable {
 	//the dialogue to activate when talking to this girl
 	[SerializeField]
-	private DialogueTree dialogue;
+	private DialogTree dialog;
 	//the dialogue interface to give the system to
 
 	public override void Selected(PlayerController playerSelecting) {
@@ -21,5 +21,6 @@ public class DizzyGirl : Interactable {
 	//method to call when used
 	public override void UseInteractable(PlayerController playerInteracting) {
 		//start a dialogue with the player
+		OverworldController.UISystem.Dialog.StartConversation(dialog, null);
 	}
 }

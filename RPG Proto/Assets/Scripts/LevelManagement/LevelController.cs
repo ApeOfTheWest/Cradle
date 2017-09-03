@@ -21,6 +21,26 @@ public class LevelController : MonoBehaviour {
 	//the prefab to create the player from
 	public PlayerController playerBlueprint = null;
 
+	//the saved time rate of world before pausing
+	private float cachedTickRate;
+	//whether the world is paused at the moment, if the world is paused for the dialog it should be unpaused at the end of it
+	private bool worldPaused = false;
+	public bool WorldPaused {
+		get {
+			return worldPaused;
+		}
+		set {
+			if (worldPaused == false && value == true) {
+				cachedTickRate = Time.timeScale;
+				Time.timeScale = 0;
+			} else if (worldPaused == true && value == false) {
+				Time.timeScale = cachedTickRate;
+			}
+
+			worldPaused = value;
+		}
+	}
+
 	//events called when the level is first entered and when the level is about to be exited
 	public delegate void LevelEvent();
 	//event with all the listeners registered
@@ -54,8 +74,10 @@ public class LevelController : MonoBehaviour {
 		overworldController.levelControl = this;
 
 		//create the player instance from a prefab, start the player off disabled until it is added to a room
-		player = Instantiate(playerBlueprint, new Vector3(), Quaternion.identity);
-		player.gameObject.SetActive (false);
+		if (playerBlueprint != null) {
+			player = Instantiate (playerBlueprint, new Vector3 (), Quaternion.identity);
+			player.gameObject.SetActive (false);
+		}
 	}
 
 	void Start() {

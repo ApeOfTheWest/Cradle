@@ -74,6 +74,9 @@ public class PlayerController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		//check the system isn't paused before getting input
+		if (LevelController.levelControllerInstance.WorldPaused == false) {
+
 		Vector2 movementVector = new Vector2 (Input.GetAxisRaw ("Horizontal"), Input.GetAxisRaw ("Vertical"));
 
 		if (movementVector != Vector2.zero) {
@@ -90,7 +93,7 @@ public class PlayerController : MonoBehaviour {
 
 		creatureBody.velocity = movementVector;
 		//creatureBody.MovePosition (creatureBody.position + movementVector * Time.deltaTime * speed);
-
+		}
 	}
 
 	//called by animator whenever footstep sound effect is to be played

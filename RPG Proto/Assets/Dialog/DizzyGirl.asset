@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c5b9b893d8d804448375879a8d84f7d, type: 3}
+  m_Name: DizzyGirl
+  m_EditorClassIdentifier: 
+  nodes:
+  - responses:
+    - linkNodeIndex: 1
+      responseLabel: Stop Spinning
+      responseFlag: -1
+    - linkNodeIndex: 3
+      responseLabel: Help her twirl
+      responseFlag: -1
+    - linkNodeIndex: 4
+      responseLabel: '...'
+      responseFlag: -1
+    leftPortrait: {fileID: 0}
+    rightPortrait: {fileID: 21300000, guid: bdb59aa0f3817534988883b39f276a60, type: 3}
+    speakerName: Dizzy Girl
+    nodeText: 'Uweeeeeeee eheheheeeeeeee
+
+
+      I''m *urp* gonna throw up'
+    endDialog: 0
+    nodeFlag: -1
+  - responses: []
+    leftPortrait: {fileID: 21300036, guid: 399191298a8547448b35c31710fe03c1, type: 3}
+    rightPortrait: {fileID: 21300004, guid: bdb59aa0f3817534988883b39f276a60, type: 3}
+    speakerName: Lotte
+    nodeText: Stop spinning you idiot
+    endDialog: 0
+    nodeFlag: -1
+  - responses: []
+    leftPortrait: {fileID: 0}
+    rightPortrait: {fileID: 0}
+    speakerName: 
+    nodeText: But the girl refused to stop
+    endDialog: 1
+    nodeFlag: -1
+  - responses: []
+    leftPortrait: {fileID: 0}
+    rightPortrait: {fileID: 0}
+    speakerName: 
+    nodeText: You go to give her a twirl and immediately get bowled over, losing 10G
+    endDialog: 1
+    nodeFlag: -1
+  - responses: []
+    leftPortrait: {fileID: 21300034, guid: 399191298a8547448b35c31710fe03c1, type: 3}
+    rightPortrait: {fileID: 0}
+    speakerName: Lotte
+    nodeText: '...'
+    endDialog: 0
+    nodeFlag: -1
+  - responses: []
+    leftPortrait: {fileID: 21300036, guid: 399191298a8547448b35c31710fe03c1, type: 3}
+    rightPortrait: {fileID: 21300002, guid: bdb59aa0f3817534988883b39f276a60, type: 3}
+    speakerName: Dizzy Girl
+    nodeText: '.......................'
+    endDialog: 0
+    nodeFlag: -1
+  - responses: []
+    leftPortrait: {fileID: 21300038, guid: 399191298a8547448b35c31710fe03c1, type: 3}
+    rightPortrait: {fileID: 21300002, guid: bdb59aa0f3817534988883b39f276a60, type: 3}
+    speakerName: Lotte
+    nodeText: '...................................................................'
+    endDialog: 0
+    nodeFlag: -1
+  - responses: []
+    leftPortrait: {fileID: 21300036, guid: 399191298a8547448b35c31710fe03c1, type: 3}
+    rightPortrait: {fileID: 21300026, guid: bdb59aa0f3817534988883b39f276a60, type: 3}
+    speakerName: Dizzy Girl
+    nodeText: WHAT?
+    endDialog: 0
+    nodeFlag: -1
+  - responses: []
+    leftPortrait: {fileID: 21300046, guid: 399191298a8547448b35c31710fe03c1, type: 3}
+    rightPortrait: {fileID: 21300024, guid: bdb59aa0f3817534988883b39f276a60, type: 3}
+    speakerName: Lotte
+    nodeText: Nothing, nice moves
+    endDialog: 0
+    nodeFlag: -1
+  rootNodeIndex: 0
