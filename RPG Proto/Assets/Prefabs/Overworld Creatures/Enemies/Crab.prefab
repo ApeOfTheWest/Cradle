@@ -53,6 +53,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4927363507053736}
   - component: {fileID: 114746045801589010}
+  - component: {fileID: 114275047847982974}
+  - component: {fileID: 114780814319221884}
+  - component: {fileID: 114007305710813116}
   - component: {fileID: 50640366984183246}
   - component: {fileID: 58017785427259364}
   - component: {fileID: 95820176765168060}
@@ -375,6 +378,28 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114007305710813116
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1328993849517184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3eb59ec0c0b99644a4569b849bfeab6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  useRaycasting: 1
+  mask:
+    serializedVersion: 2
+    m_Bits: 4292878847
+  thickRaycast: 1
+  thickRaycastRadius: 0.84
+  raycastOffset: {x: 0, y: 0}
+  subdivideEveryIter: 0
+  iterations: 2
+  useGraphRaycasting: 0
 --- !u!114 &114169932709415132
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -388,6 +413,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fieldOfView: 120
   coneDirection: {x: 0, y: -1}
+--- !u!114 &114275047847982974
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1328993849517184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f1a45d5170fcb94d8ddd9c51e29eac4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loseTargets: 1
+  pursuitMaxDistance: 4
+  targetReachedDistance: 2
+  homePosition: {x: 0, y: 0}
 --- !u!114 &114321107521458716
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -435,8 +475,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 178e1389d0acb7c40b7ce9ac8095c113, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  creatureBody: {fileID: 50640366984183246}
-  fightHitbox: {fileID: 1347022159811184}
   footstepSounds:
   - {fileID: 8300000, guid: 7f6bfe7a41a554b4f8d9b0cd863f1e8a, type: 3}
   - {fileID: 8300000, guid: 2a3faada72c5ba141b6d9eeeaebf278f, type: 3}
@@ -448,10 +486,40 @@ MonoBehaviour:
   - {fileID: 8300000, guid: cbbafca9507230d49af321e32578d1ee, type: 3}
   - {fileID: 8300000, guid: 60fc4bcf4f3f051428cc5da620419e4b, type: 3}
   - {fileID: 8300000, guid: 900e939e95c9d314c8aed5842a15d164, type: 3}
+  speed: 5
+  nextWaypointDistance: 0.2
+  pointMoveRepathRate: 0.5
+  fightHitbox: {fileID: 1347022159811184}
   buriedVision: {fileID: 114549676730982614}
   unburiedVision: {fileID: 114169932709415132}
-  pursuitMaxDistance: 6.8
-  speed: 5
+--- !u!114 &114780814319221884
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1328993849517184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  drawGizmos: 1
+  detailedGizmos: 1
+  startEndModifier:
+    addPoints: 0
+    exactStartPoint: 3
+    exactEndPoint: 3
+    useRaycasting: 0
+    mask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useGraphRaycasting: 0
+  traversableTags: -1
+  traversableTagsCompatibility:
+    tagsChange: -1
+    tagsSet: -1
+  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!212 &212854194317603646
 SpriteRenderer:
   m_ObjectHideFlags: 1

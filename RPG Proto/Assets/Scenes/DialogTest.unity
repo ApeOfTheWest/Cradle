@@ -406,7 +406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ui: {fileID: 1411891025}
-  tree: {fileID: 11400000, guid: f4cf1ef0dc301ab41a39807d0b0f4c36, type: 2}
+  tree: {fileID: 11400000, guid: 496210e79fa4ea24ebb69979606de438, type: 2}
 --- !u!1 &1787408828
 GameObject:
   m_ObjectHideFlags: 0
@@ -591,32 +591,32 @@ Prefab:
     - target: {fileID: 224171424854170908, guid: fc3427da6d87c4c48904a4899a4823b0,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 84.308235
+      value: 85.22203
       objectReference: {fileID: 0}
     - target: {fileID: 224171424854170908, guid: fc3427da6d87c4c48904a4899a4823b0,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -37.175842
       objectReference: {fileID: 0}
     - target: {fileID: 224171424854170908, guid: fc3427da6d87c4c48904a4899a4823b0,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 128.61647
+      value: 130.44406
       objectReference: {fileID: 0}
     - target: {fileID: 224171424854170908, guid: fc3427da6d87c4c48904a4899a4823b0,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 54.351685
       objectReference: {fileID: 0}
     - target: {fileID: 224412526542580518, guid: fc3427da6d87c4c48904a4899a4823b0,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 168.61647
+      value: 170.44406
       objectReference: {fileID: 0}
     - target: {fileID: 224412526542580518, guid: fc3427da6d87c4c48904a4899a4823b0,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 74.351685
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fc3427da6d87c4c48904a4899a4823b0, type: 2}

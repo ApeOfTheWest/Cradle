@@ -60,3 +60,4 @@ D:\Users\Matthew\Documents\GitHub\Cradle\RPG Proto\Temp\bin\Debug\UnityEngine.VR
 D:\Users\Matthew\Documents\GitHub\Cradle\RPG Proto\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 D:\Users\Matthew\Documents\GitHub\Cradle\RPG Proto\obj\Debug\Assembly-CSharp.dll
 D:\Users\Matthew\Documents\GitHub\Cradle\RPG Proto\obj\Debug\Assembly-CSharp.pdb
+D:\Users\Matthew\Documents\GitHub\Cradle\RPG Proto\Temp\bin\Debug\Pathfinding.Ionic.Zip.Reduced.dll

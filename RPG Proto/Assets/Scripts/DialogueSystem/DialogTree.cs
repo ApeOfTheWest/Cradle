@@ -10,7 +10,7 @@ public class DialogTree : ScriptableObject {
 	public List<DialogNode> nodes = new List<DialogNode>();
 
 	//the index of the node to start with, if -1 end convo straight away
-	public int rootNodeIndex = 0;
+	public int rootNodeIndex = -1;
 
 	//use to remove a node, all references to the node should be nulled before the node is removed
 	//and also any references to nodes above the deletion point will have to be shifted by one downwards
@@ -19,12 +19,14 @@ public class DialogTree : ScriptableObject {
 		if (index >= 0 && index < nodes.Count) {
 			//delete the node
 			nodes.RemoveAt(index);
-
+			//adjust root
 			AdjustIndexDeleted(ref rootNodeIndex, index);
 
 			//iterate through remaining nodes, null any direct refs
 			//decrement any references to indexes larger than the deleted one
 			for (int i = 0; i < nodes.Count; i++) {
+				//adjust any links
+				AdjustIndexDeleted(ref nodes[i].nodeLink, index);
 				for (int j = 0; j < nodes [i].responses.Count; j++) {
 					AdjustIndexDeleted (ref nodes [i].responses [j].linkNodeIndex, index);
 				}
@@ -35,6 +37,11 @@ public class DialogTree : ScriptableObject {
 	//use to add a node
 	public void AddNode(DialogNode toAdd) {
 		nodes.Add (toAdd);
+
+		//if theres no root node and then make this the root node
+		if (rootNodeIndex < 0) {
+			rootNodeIndex = nodes.Count - 1;
+		}
 	}
 
 	//use to add a node at an index
@@ -62,6 +69,7 @@ public class DialogTree : ScriptableObject {
 			AdjustIndexMoved(ref rootNodeIndex, nodeIndex, newIndex);
 
 			for (int i = 0; i < nodes.Count; i++) {
+				AdjustIndexMoved(ref nodes[i].nodeLink, nodeIndex, newIndex);
 				for (int j = 0; j < nodes [i].responses.Count; j++) {
 					AdjustIndexMoved (ref nodes [i].responses [j].linkNodeIndex, nodeIndex, newIndex);
 				}
@@ -69,7 +77,7 @@ public class DialogTree : ScriptableObject {
 		}
 	}
 
-	private void AdjustIndexMoved(ref int toAdjust, int origionalPosition, int newPosition) {
+	public void AdjustIndexMoved(ref int toAdjust, int origionalPosition, int newPosition) {
 		//do nothing if index is negative as this signifies a dialog end
 		if (toAdjust >= 0) {
 			//if the index to adjust is equal to the origional node then set to the new pos
@@ -86,7 +94,7 @@ public class DialogTree : ScriptableObject {
 	}
 
 	//method to adjust the index reference to a node when one had been deleted, changes the index based on the index of deletion
-	private void AdjustIndexDeleted(ref int toAdjust, int indexDeleted) {
+	public void AdjustIndexDeleted(ref int toAdjust, int indexDeleted) {
 		//do nothing if index is negative as this signifies a dialog end
 		if (toAdjust >= 0) {
 

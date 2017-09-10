@@ -90,6 +90,7 @@ GameObject:
   - component: {fileID: 58938046410338696}
   - component: {fileID: 95030526510815336}
   - component: {fileID: 82052779355120926}
+  - component: {fileID: 114315424188598040}
   m_Layer: 14
   m_Name: OverworldPlayer
   m_TagString: Untagged
@@ -329,6 +330,34 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114315424188598040
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1822791797838958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  drawGizmos: 1
+  detailedGizmos: 0
+  startEndModifier:
+    addPoints: 0
+    exactStartPoint: 3
+    exactEndPoint: 3
+    useRaycasting: 0
+    mask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useGraphRaycasting: 0
+  traversableTags: -1
+  traversableTagsCompatibility:
+    tagsChange: -1
+    tagsSet: -1
+  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!114 &114404575795854960
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -340,7 +369,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee0e7d44dc76bf14d807d0115e5295ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
   footstepSounds:
   - {fileID: 8300000, guid: 7f6bfe7a41a554b4f8d9b0cd863f1e8a, type: 3}
   - {fileID: 8300000, guid: 2a3faada72c5ba141b6d9eeeaebf278f, type: 3}
@@ -352,6 +380,9 @@ MonoBehaviour:
   - {fileID: 8300000, guid: cbbafca9507230d49af321e32578d1ee, type: 3}
   - {fileID: 8300000, guid: 60fc4bcf4f3f051428cc5da620419e4b, type: 3}
   - {fileID: 8300000, guid: 900e939e95c9d314c8aed5842a15d164, type: 3}
+  speed: 6
+  nextWaypointDistance: 0.5
+  pointMoveRepathRate: 0.5
 --- !u!114 &114711811878231754
 MonoBehaviour:
   m_ObjectHideFlags: 1

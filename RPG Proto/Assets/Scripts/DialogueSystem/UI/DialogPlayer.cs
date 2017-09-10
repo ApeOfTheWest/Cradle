@@ -48,13 +48,8 @@ public class DialogPlayer {
 			//retrieve node data if needed
 			ui.DisplayNodeContents(RetireveNodeData(currNode));
 
-			if (currNode.endDialog == false) {
-				//if not ending dialog set the next node to be equal to 1 more than the current index by default
-				QueNextNode (nextNode + 1);
-			} else {
-				//if ending dialog then que -1
-				QueNextNode(-1);
-			}
+			//by default que the next node to be the node link
+			QueNextNode(currNode.nodeLink);
 
 			//ntify interface
 			if (eventInterface != null) {

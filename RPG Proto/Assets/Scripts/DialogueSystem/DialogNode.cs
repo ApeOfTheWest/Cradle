@@ -20,9 +20,13 @@ public class DialogNode {
 	public string speakerName = "";
 	public string nodeText = "";
 
-	//whether to end the dialog after this node (ignored if node has responses)
-	public bool endDialog = false;
+	//the index of the node to link to after this one completes, if -1 then this will end the conversation
+	//this is ignored if any responses are used
+	public int nodeLink = -1;
 
 	//flag used to identify this node for event purposes
 	public int nodeFlag = -1;
+
+	//the position of this dialog node, this has no gameplay purpose and is purely here for use with the editor
+	public Vector2 nodeEditorPosition = new Vector2();
 }

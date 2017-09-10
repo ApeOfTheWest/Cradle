@@ -264,6 +264,7 @@ MonoBehaviour:
       and the detailed images of processes of change were worked together with the
       animal archetypes of that stage into a mandala-like picture which they used
       as the basis for their meditations. "
-    endDialog: 0
+    nodeLink: -1
     nodeFlag: -1
+    nodeEditorPosition: {x: 71, y: 23}
   rootNodeIndex: 0

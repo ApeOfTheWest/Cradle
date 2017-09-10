@@ -29,62 +29,71 @@ MonoBehaviour:
 
 
       I''m *urp* gonna throw up'
-    endDialog: 0
+    nodeLink: -1
     nodeFlag: -1
+    nodeEditorPosition: {x: 75, y: 91}
   - responses: []
     leftPortrait: {fileID: 21300036, guid: 399191298a8547448b35c31710fe03c1, type: 3}
     rightPortrait: {fileID: 21300004, guid: bdb59aa0f3817534988883b39f276a60, type: 3}
     speakerName: Lotte
     nodeText: Stop spinning you idiot
-    endDialog: 0
+    nodeLink: 2
     nodeFlag: -1
+    nodeEditorPosition: {x: 738, y: 43}
   - responses: []
     leftPortrait: {fileID: 0}
     rightPortrait: {fileID: 0}
     speakerName: 
     nodeText: But the girl refused to stop
-    endDialog: 1
+    nodeLink: 2
     nodeFlag: -1
+    nodeEditorPosition: {x: 1225, y: 128}
   - responses: []
     leftPortrait: {fileID: 0}
     rightPortrait: {fileID: 0}
     speakerName: 
     nodeText: You go to give her a twirl and immediately get bowled over, losing 10G
-    endDialog: 1
+    nodeLink: -1
     nodeFlag: -1
+    nodeEditorPosition: {x: 735, y: 287}
   - responses: []
     leftPortrait: {fileID: 21300034, guid: 399191298a8547448b35c31710fe03c1, type: 3}
     rightPortrait: {fileID: 0}
     speakerName: Lotte
     nodeText: '...'
-    endDialog: 0
+    nodeLink: 5
     nodeFlag: -1
+    nodeEditorPosition: {x: 62, y: 383}
   - responses: []
     leftPortrait: {fileID: 21300036, guid: 399191298a8547448b35c31710fe03c1, type: 3}
     rightPortrait: {fileID: 21300002, guid: bdb59aa0f3817534988883b39f276a60, type: 3}
     speakerName: Dizzy Girl
     nodeText: '.......................'
-    endDialog: 0
+    nodeLink: 6
     nodeFlag: -1
+    nodeEditorPosition: {x: 75, y: 562}
   - responses: []
     leftPortrait: {fileID: 21300038, guid: 399191298a8547448b35c31710fe03c1, type: 3}
     rightPortrait: {fileID: 21300002, guid: bdb59aa0f3817534988883b39f276a60, type: 3}
     speakerName: Lotte
     nodeText: '...................................................................'
-    endDialog: 0
+    nodeLink: 7
     nodeFlag: -1
+    nodeEditorPosition: {x: 514, y: 525}
   - responses: []
     leftPortrait: {fileID: 21300036, guid: 399191298a8547448b35c31710fe03c1, type: 3}
     rightPortrait: {fileID: 21300026, guid: bdb59aa0f3817534988883b39f276a60, type: 3}
     speakerName: Dizzy Girl
     nodeText: WHAT?
-    endDialog: 0
+    nodeLink: 8
     nodeFlag: -1
+    nodeEditorPosition: {x: 928, y: 615}
   - responses: []
     leftPortrait: {fileID: 21300046, guid: 399191298a8547448b35c31710fe03c1, type: 3}
     rightPortrait: {fileID: 21300024, guid: bdb59aa0f3817534988883b39f276a60, type: 3}
     speakerName: Lotte
     nodeText: Nothing, nice moves
-    endDialog: 0
+    nodeLink: -1
     nodeFlag: -1
+    nodeEditorPosition: {x: 1297, y: 493}
   rootNodeIndex: 0
