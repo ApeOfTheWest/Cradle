@@ -11,10 +11,20 @@ public class OverworldUI : MonoBehaviour {
 		}
 	}
 
+	//get the pause menu from the children
+	private PauseMenu pauseMenu;
+	public PauseMenu PauseMenu {
+		get {
+			return pauseMenu;
+		}
+	}
+
 	// Use this for initialization
 	void Awake () {
 		dialog = GetComponentInChildren<DialogUI> (true);
 		dialog.gameObject.SetActive (false);
+		pauseMenu = GetComponentInChildren<PauseMenu> (true);
+		pauseMenu.gameObject.SetActive (false);
 	}
 
 }

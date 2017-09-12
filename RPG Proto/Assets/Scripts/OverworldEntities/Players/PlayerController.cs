@@ -93,6 +93,13 @@ protected override void SetLayer() {
 			} else {
 			Moving = false;
 			}
+
+		//check if escape key is pressed
+			if (Input.GetKeyDown (KeyCode.Escape)) {
+			//if so then open the pause menu
+			LevelController.overworldControllerInstance.ShowPauseMenu();
+			}
+
 		/*if (movementVector != Vector2.zero) {
 			creatureAnimator.SetBool (MOVING_HASH, true);
 			creatureAnimator.SetFloat (X_DIR_HASH, movementVector.x);

@@ -229,6 +229,13 @@
      <Compile Include="Assets\Scripts\Overworld\FightTrigger.cs" />
      <Compile Include="Assets\Scripts\Overworld\Interactable.cs" />
      <Compile Include="Assets\Scripts\Overworld\OverworldUI.cs" />
+     <Compile Include="Assets\Scripts\Overworld\PauseMenu\InventoryTab.cs" />
+     <Compile Include="Assets\Scripts\Overworld\PauseMenu\LogTab.cs" />
+     <Compile Include="Assets\Scripts\Overworld\PauseMenu\PartyMemberMenuButton.cs" />
+     <Compile Include="Assets\Scripts\Overworld\PauseMenu\PartyTab.cs" />
+     <Compile Include="Assets\Scripts\Overworld\PauseMenu\PauseMenu.cs" />
+     <Compile Include="Assets\Scripts\Overworld\PauseMenu\PauseMenuContent.cs" />
+     <Compile Include="Assets\Scripts\Overworld\PauseMenu\SystemTab.cs" />
      <Compile Include="Assets\Scripts\Overworld\PlayerContactChallenger.cs" />
      <Compile Include="Assets\Scripts\Overworld\PlayerRoster.cs" />
      <Compile Include="Assets\Scripts\Overworld\Room.cs" />
@@ -252,6 +259,7 @@
      <Compile Include="Assets\Scripts\PathFinding\RaycastModifier2D.cs" />
      <Compile Include="Assets\Scripts\PersistentData.cs" />
      <Compile Include="Assets\Scripts\StaticMidgroundSorter.cs" />
+     <Compile Include="Assets\Scripts\SystemSettings.cs" />
      <Compile Include="Assets\Scripts\Testing\BattleTest.cs" />
      <Compile Include="Assets\Scripts\Testing\DialogTest.cs" />
      <Compile Include="Assets\Scripts\Units\AttackPoint.cs" />

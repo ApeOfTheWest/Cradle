@@ -10,7 +10,7 @@ public class PlayerRoster : MonoBehaviour {
 	public ActiveParty selectedParty = new ActiveParty();
 
 	//method to add a unit to the party, childs the unit to the party unit holder and adds it to the party roster
-	public void AddUnitToParty(UnitController unit) {
+	public void AddUnitToParty(PartyUnit unit) {
 		selectedParty.AddPartyMember (unit);
 
 		unit.transform.parent = transform;

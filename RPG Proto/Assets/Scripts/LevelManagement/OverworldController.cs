@@ -31,6 +31,19 @@ public class OverworldController : MonoBehaviour {
 		}
 	}
 
+	//whether the pause menu is enabled or not
+	//it will often be disabled when in other menus or during cutscenes
+	public bool pauseMenuEnabled = true;
+
+	//display the pause menu, will only complete is pause enabled is true AND the level controller is not paused 
+	//(as this indicates something else may doing something in realtime that the pause menu wouldn't stop)
+	public void ShowPauseMenu() {
+		//only if both conditions are satisfied should the pause menu be shown
+		if (pauseMenuEnabled == true && levelControl.WorldPaused == false) {
+			uiSystem.PauseMenu.OpenMenu ();
+		}
+	}
+
 	// Use this for initialization
 	void Awake () {
 		roomHolder = GetComponentInChildren<RoomHolder> ();

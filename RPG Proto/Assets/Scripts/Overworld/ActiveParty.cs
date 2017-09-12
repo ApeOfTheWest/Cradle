@@ -5,11 +5,11 @@ using UnityEngine;
 //active party stores the currently active units to be used, along with the selected reserves
 public class ActiveParty {
 	//the currently active party memebers (max of 3)
-	private List<UnitController> activeParty;
+	private List<PartyUnit> activeParty;
 
 	//the current reserve of party members (max of 3)
 	//no members can be put in reserve until the active slots are filled
-	private List<UnitController> reserveParty;
+	private List<PartyUnit> reserveParty;
 
 	//the positions that party members can be in on the field (normalized)
 	private Vector2[] partyPositions;
@@ -32,8 +32,8 @@ public class ActiveParty {
 	public const uint MAX_RESERVE = 3;
 
 	public ActiveParty() {
-		activeParty = new List<UnitController>();
-		reserveParty = new List<UnitController>();
+		activeParty = new List<PartyUnit>();
+		reserveParty = new List<PartyUnit>();
 
 		//make the relevent positions to place each party member in
 		partyPositions = new Vector2[MAX_ACTIVE];
@@ -120,7 +120,7 @@ public class ActiveParty {
 	}
 
 	//add a new unit to the party
-	public void AddPartyMember(UnitController newMember) {
+	public void AddPartyMember(PartyUnit newMember) {
 		//add to the active party if theres a space
 		if (activeParty.Count < MAX_ACTIVE) {
 			activeParty.Add (newMember);
@@ -129,9 +129,17 @@ public class ActiveParty {
 		}
 	}
 
-	public UnitController[] CollateActiveUnits() {
+	//swap the position of units by index and activity
+	//used extensively by the menu for formation switching
+	//update the home position of the unit being swapped if they are active after being swapped
+	public void SwapUnitPositions(int firstIndex, bool firstActive,
+		int secondIndex, bool secondActive) {
+
+	}
+
+	public PartyUnit[] CollateActiveUnits() {
 		//make an array the size of the active members
-		UnitController[] units = new UnitController[activeParty.Count];
+		PartyUnit[] units = new PartyUnit[activeParty.Count];
 
 		for (int i = 0; i < activeParty.Count; i++) {
 			units [i] = activeParty [i];
@@ -143,8 +151,8 @@ public class ActiveParty {
 		return units;
 	}
 
-	public UnitController[] CollateReserveUnits() {
-		UnitController[] units = new UnitController[reserveParty.Count];
+	public PartyUnit[] CollateReserveUnits() {
+		PartyUnit[] units = new PartyUnit[reserveParty.Count];
 
 		for (int i = 0; i < reserveParty.Count; i++) {
 			units [i] = reserveParty [i];
